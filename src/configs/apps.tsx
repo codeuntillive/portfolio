@@ -53,7 +53,17 @@ const apps: AppsData[] = [
     img: "img/icons/vscode.png",
     content: <VSCode />
   },
-  
+{
+    id: "csgo",
+    title: "CS:GO",
+    desktop: true,
+    width: 1000,
+    height: 600,
+    x: -80,
+    y: 20,
+    img: "img/icons/csgo.ico",
+    content: <CSGO />
+  },
   {
     id: "facetime",
     title: "FaceTime",
