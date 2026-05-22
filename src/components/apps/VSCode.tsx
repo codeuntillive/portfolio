@@ -5,7 +5,6 @@ export default function VSCode() {
       className="size-full bg-[#202020]"
       src={url}
       title="VSCode"
-      
     />
   );
 }
