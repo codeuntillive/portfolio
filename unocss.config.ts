@@ -67,6 +67,25 @@ export default defineConfig({
       warn: true,
       extraProperties: {
         display: "inline-block"
+      },
+      collections: {
+        ph: () => import("@iconify/json/json/ph.json").then((i) => i.default),
+        bi: () => import("@iconify/json/json/bi.json").then((i) => i.default),
+        bxl: () => import("@iconify/json/json/bxl.json").then((i) => i.default),
+        bx: () => import("@iconify/json/json/bx.json").then((i) => i.default),
+        fa: () => import("@iconify/json/json/fa.json").then((i) => i.default),
+        "fa-solid": () => import("@iconify/json/json/fa-solid.json").then((i) => i.default),
+        "fa-brands": () => import("@iconify/json/json/fa-brands.json").then((i) => i.default),
+        ion: () => import("@iconify/json/json/ion.json").then((i) => i.default),
+        jam: () => import("@iconify/json/json/jam.json").then((i) => i.default),
+        "material-symbols": () => import("@iconify/json/json/material-symbols-rounded.json").then((i) => i.default),
+        charm: () => import("@iconify/json/json/charm.json").then((i) => i.default),
+        gg: () => import("@iconify/json/json/gg.json").then((i) => i.default),
+        ri: () => import("@iconify/json/json/ri.json").then((i) => i.default),
+        mi: () => import("@iconify/json/json/mi.json").then((i) => i.default),
+        mingcute: () => import("@iconify/json/json/mingcute.json").then((i) => i.default),
+        tabler: () => import("@iconify/json/json/tabler.json").then((i) => i.default),
+        lucide: () => import("@iconify/json/json/lucide.json").then((i) => i.default)
       }
     })
   ],
@@ -75,4 +94,4 @@ export default defineConfig({
     transformerVariantGroup(),
     transformerAttributifyJsx()
   ]
-});
+})

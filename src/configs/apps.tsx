@@ -1,6 +1,7 @@
 import { appBarHeight } from "~/utils";
 import type { AppsData } from "~/types";
 import PortfolioPage from "../pages/PortfolioPage";
+import CSGO from "../components/apps/CSGO";
 
 const apps: AppsData[] = [
   {
@@ -52,6 +53,7 @@ const apps: AppsData[] = [
     img: "img/icons/vscode.png",
     content: <VSCode />
   },
+  
   {
     id: "facetime",
     title: "FaceTime",

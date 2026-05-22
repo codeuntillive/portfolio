@@ -106,27 +106,29 @@ export default function DockItem({
       >
         {title}
       </p>
-      {link ? (
-        <a href={link} target="_blank" rel="noreferrer">
-          <motion.img
-            ref={imgRef}
-            src={img}
-            alt={title}
-            title={title}
-            draggable={false}
-            style={winWidth < 640 ? {} : { width, willChange: "width" }}
-          />
-        </a>
-      ) : (
-        <motion.img
-          ref={imgRef}
-          src={img}
-          alt={title}
-          title={title}
-          draggable={false}
-          style={winWidth < 640 ? {} : { width, willChange: "width" }}
-        />
-      )}
+{link ? (
+         <a href={link} target="_blank" rel="noreferrer">
+           <motion.img
+             ref={imgRef}
+             src={img}
+             alt={title}
+             title={title}
+             draggable={false}
+             className="object-contain"
+             style={winWidth < 640 ? {} : { width, willChange: "width" }}
+           />
+         </a>
+       ) : (
+         <motion.img
+           ref={imgRef}
+           src={img}
+           alt={title}
+           title={title}
+           draggable={false}
+           className="object-contain"
+           style={winWidth < 640 ? {} : { width, willChange: "width" }}
+         />
+       )}
       <div
         className={`size-1 mx-auto rounded-full bg-c-800 ${isOpen ? "" : "invisible"}`}
       />

@@ -20,8 +20,6 @@ const launchpadApps: LaunchpadData[] = [
     img: "img/icons/launchpad/oh-vue-icons.png",
     link: "https://google.com"
   },
- 
- ,
   {
     id: "cube",
     title: "Cube Solver",
@@ -34,12 +32,17 @@ const launchpadApps: LaunchpadData[] = [
     img: "img/icons/launchpad/resume.png",
     link: "https://drive.google.com/file/d/1hZW5yK1PgVF5tDhVgxTnr--2IFbYRRYE/view?usp=sharing"
   },
-  
   {
     id: "fishmail",
     title: "Gmail",
     img: "img/icons/launchpad/fishmail.png",
     link: "https://mail.google.com/"
+  },
+  {
+    id: "csgo",
+    title: "CS:GO",
+    img: "img/icons/launchpad/csgo.png",
+    link: "https://www.onlinegames.io/games/2022/unity2/masked-special-forces/index.html"
   }
 ];
 
