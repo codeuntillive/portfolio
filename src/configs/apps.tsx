@@ -53,7 +53,7 @@ const apps: AppsData[] = [
     img: "img/icons/vscode.png",
     content: <VSCode />
   },
-{
+  {
     id: "csgo",
     title: "CS:GO",
     desktop: true,

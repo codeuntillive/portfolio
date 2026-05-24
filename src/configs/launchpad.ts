@@ -41,7 +41,7 @@ const launchpadApps: LaunchpadData[] = [
   {
     id: "csgo",
     title: "CS:GO",
-    img: "img/icons/launchpad/csgo.png",
+    img: "img/icons/launchpad/csgo.ico",
     link: "https://www.onlinegames.io/games/2022/unity2/masked-special-forces/index.html"
   }
 ];
